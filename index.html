@@ -14,6 +14,7 @@
         <h1>Nolan Ross</h1>
         <nav>
             <ul>
+                <!-- added a hash with the name of the corresponding id's to make the nav links usable -->
                 <li><a href="#divSpacing">About Me</a></li>
                 <li><a href="#main">Projects</a></li>
                 <li><a href="#footer">Contact Me</a></li>
@@ -23,6 +24,7 @@
     </header>
 
     <main>
+        <!-- class grid applies grid concepts to all of it's contents in the CSS stylesheet -->
         <section class="grid">
             <aside class="aside">
                 <div id="divSpacing">
@@ -49,11 +51,10 @@
                     </ul>
                 </div>
             </aside>
-            <main id="main">
+            <!-- Used javascript to make the main box a hyperlink to the refactor project. Couldn't use an 
+            <a> tag because the image wouldn't comply with CSS grid -->
+            <main id="main" onclick="window.location='https://beefbones.github.io/refactor-project/'">
                 <h2>Refactor Project</h2>
-                <a href="https://beefbones.github.io/refactor-project/">
-                    <img src="./assets/images/background1.jpeg">
-                </a>
             </main>
             <section id="content1">
                 <h2>Coming Soon!</h2>
@@ -73,6 +74,7 @@
             </footer>
         </section>
     </main>
+    <!-- linked the javascript file here -->
     <script src="script.js"></script>
 </body>
 </html>
