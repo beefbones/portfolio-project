@@ -85,7 +85,7 @@ html {
     grid-area: main;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
-    background-image: url("../assets/images/background1.jpeg");
+    background-image: url("../assets/images/background2.jpeg");
     background-size: cover;
     background-position: center;
     cursor: pointer;

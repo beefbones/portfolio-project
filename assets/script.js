@@ -1,4 +1,4 @@
 Document.getElementById("main").onclick = function() {
-    window.location='https://beefbones.github.io/refactor-project/'; 
+    window.location='https://beefbones.github.io/travel-planner/'; 
 }
 
