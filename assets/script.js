@@ -1,4 +1,4 @@
 Document.getElementById("main").onclick = function() {
-    window.location='https://beefbones.github.io/travel-planner/'; 
+    window.location='https://ancient-anchorage-85467.herokuapp.com/login'; 
 }
 
